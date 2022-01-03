@@ -38,11 +38,7 @@ particlesJS("particles-js", {
       }
     },
     "line_linked": {
-      "enable": false,
-      "distance": 150,
-      "color": "#ffffff",
-      "opacity": 0.4,
-      "width": 1
+      "enable": false
     },
     "move": {
       "enable": true,
@@ -69,25 +65,12 @@ particlesJS("particles-js", {
       "resize": true
     },
     "modes": {
-      "grab": {
-        "distance": 400,
-        "line_linked": {
-          "opacity": 1
-        }
-      },
       "bubble": {
         "distance": 120,
         "size": 1,
         "duration": 3,
         "opacity": 1,
         "speed": 3
-      },
-      "repulse": {
-        "distance": 200,
-        "duration": 0.4
-      },
-      "remove": {
-        "particles_nb": 2
       }
     }
   },
